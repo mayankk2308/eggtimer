@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A84503071FFAF80E0025719A /* PrefsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84503061FFAF80E0025719A /* PrefsViewController.swift */; };
+		A845030C1FFB0C090025719A /* EggTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A845030B1FFB0C090025719A /* EggTimer.swift */; };
 		A857FC851FF9950E001EF422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857FC841FF9950E001EF422 /* AppDelegate.swift */; };
 		A857FC871FF9950E001EF422 /* EggViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A857FC861FF9950E001EF422 /* EggViewController.swift */; };
 		A857FC891FF9950E001EF422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A857FC881FF9950E001EF422 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		A84503061FFAF80E0025719A /* PrefsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrefsViewController.swift; sourceTree = "<group>"; };
+		A845030B1FFB0C090025719A /* EggTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggTimer.swift; sourceTree = "<group>"; };
 		A857FC811FF9950E001EF422 /* EggTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EggTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A857FC841FF9950E001EF422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A857FC861FF9950E001EF422 /* EggViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EggViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,14 @@
 			path = "Configuration & Storyboards";
 			sourceTree = "<group>";
 		};
+		A845030A1FFB0BD50025719A /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				A845030B1FFB0C090025719A /* EggTimer.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
 		A857FC781FF9950E001EF422 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		A857FC831FF9950E001EF422 /* EggTimer */ = {
 			isa = PBXGroup;
 			children = (
+				A845030A1FFB0BD50025719A /* Core */,
 				A84503091FFAFEDC0025719A /* Configuration & Storyboards */,
 				A84503081FFAFEB80025719A /* User Interface */,
 			);
@@ -154,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A857FC871FF9950E001EF422 /* EggViewController.swift in Sources */,
+				A845030C1FFB0C090025719A /* EggTimer.swift in Sources */,
 				A84503071FFAF80E0025719A /* PrefsViewController.swift in Sources */,
 				A857FC851FF9950E001EF422 /* AppDelegate.swift in Sources */,
 			);
